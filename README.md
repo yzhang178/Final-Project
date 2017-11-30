@@ -100,6 +100,6 @@ When the temperature increases by 1 degree, the average red light violation per 
 
 ## Conclusions
 
-Our thress assumptions have been tested: 1) we can see no obvious change of red light violations around Christmas, except for a decline on the Christmas Day; 2) the Cubs' win made people violate the red lights more; 3) people make red light violations more in warm days and when the temperature increases by 1 degree, the average red light violation per camera per day will increase by 0.034.
+Our three assumptions have been tested: 1) we can see no obvious change of red light violations around Christmas, except for a decline on the Christmas Day; 2) the Cubs' win made people violate the red lights more; 3) people make red light violations more in warm days and when the temperature increases by 1 degree, the average red light violation per camera per day will increase by 0.034.
 
 Further analysis is required in: 1) why the violation per camera per day is extremely high in zip-code 60657 and 60804; 2) if the overall increase in violation is caused by people's increasingly impertinent driving behavior or a more reasonable geographical setup of the cameras.
