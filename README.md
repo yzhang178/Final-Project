@@ -1,13 +1,13 @@
-# Weather and Red Light Violations
+ # Weather and Red Light Violations
 
 ## The Question
 
 We explored the data of red light violations in the last 3 years in Chicago with 3 assumptions:
-1. There are more violations around Christmas;
+1. There are more violations around certain holidays, such as Christmas;
 2. There are more violations after Cubs' win;
 3. Weather influences the number of violations.
 
-After close examination, we reject the first, found evidence supporting the second and see a clear seasonal variation in the number of violations. We then continued our research with a regression between the violation number and the temperature and precipitation. There is no significant relationship between the violation and precipitation, but with the temperature rising, the red light violation number will increase.
+After close examination, we reject the first and the second, found evidence supporting the thrid and see a clear seasonal variation in the number of violations. We then continued our research with a regression between the violation number and the temperature and precipitation. There is no significant relationship between the violation and precipitation, but with the temperature rising, the red light violation number will increase.
 
 ## Data
 
