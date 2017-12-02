@@ -7,7 +7,7 @@ We explored the data of red light violations in the last 3 years in Chicago with
 2. There are more violations after Cubs' win;
 3. Weather influences the number of violations.
 
-After close examination, we reject the first and the second, found evidence supporting the thrid and see a clear seasonal variation in the number of violations. We then continued our research with a regression between the violation number and the temperature and precipitation. There is no significant relationship between the violation and precipitation, but with the temperature rising, the red light violation number will increase.
+After close examination, we reject the first, found evidence supporting the second and see a clear seasonal variation in the number of violations. We then continued our research with a regression between the violation number and the temperature and precipitation. There is no significant relationship between the violation and precipitation, but with the temperature rising, the red light violation number will increase.
 
 ## Data
 
@@ -23,7 +23,7 @@ We used the [weather underground API](https://www.wunderground.com/weather/api/)
 
 ## Investigation
 
-All analysis code for this project can be accessed [here](https://github.com/yzhang178/Final-Project/blob/master/Project.Lingfei%20FINAL.ipynb).
+All analysis code for this project can be accessed [here](https://github.com/yzhang178/Final-Project/blob/master/Data%20Analysis.ipynb).
 
 ### General analysis
 
