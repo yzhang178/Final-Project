@@ -56,7 +56,7 @@ We think the violation number per camera per day could give us a more sensible i
 
 ### Before and after Christmas
 
-After playing with the data more generally, we started to test our assumptions. Firstly, we looked at the violation number during the Christmas week (12.20-12.27) in the last 3 years. No significant changes happened around the holiday but we can observe a clear decline on the exact Christmas Day 12.25. We think that's because people usually stay with their family and drive less on that day.
+After playing with the data more generally, we started to test our assumptions. Firstly, we looked at the violation number during the Christmas week (12.20-12.27) in the last 3 years. No significant changes common in 3 years happened around the holiday but we can observe a clear decline on the exact Christmas Day 12.25. We think that's because people usually stay with their family and drive less on that day.
 
 ![alt text](https://github.com/yzhang178/Final-Project/blob/master/images/christmas%20bar.png?raw=true "Christmas")
 
