@@ -11,6 +11,8 @@ After close examination, we reject the first, found evidence supporting the seco
 
 ## Data
 
+All the data we used can be accessed [here](https://drive.google.com/open?id=1u8ZaaZpRs2_WeB2bM1sJUwTHM4XU2qZI).
+
 ### Red Light Violations
 
 We used the [red light violations data](https://data.cityofchicago.org/Transportation/Red-Light-Camera-Violations/spqx-js37/data) from the Chicago City Portal. It provides us with the ID and address of the red light cameras, the date of violations and also the number of violations during the last 3 years. 
@@ -64,7 +66,7 @@ After playing with the data more generally, we started to test our assumptions. 
 
 Secondly, we looked into the data before and after the date of Cubs' win, in a span of 3 weeks to eliminate the influence of weekdays as we discussed above. From the following bar chart, we can see an obvious increase in the following days of 11.3, which supports our second assumption.
 
-![alt text](https://github.com/yzhang178/Final-Project/blob/master/images/christmas%20bar.png?raw=true "Christmas")
+![alt text](https://github.com/yzhang178/Final-Project/blob/master/images/cubs-1.png?raw=true "Cubs")
 
 ### Relationship between weather and red light violations
 
