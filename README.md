@@ -1,8 +1,8 @@
-# Weather and Red Light Violations
+ # Weather and Red Light Violations
 
 ## The Question
 
-We explored the data of red light violations in the last 3 years in Chicago with 3 assumptions:
+We explored the data of red light violations in the last 3 years in Chicago with 3 assumptions in mind:
 1. There are more violations around Christmas;
 2. There are more violations after Cubs' win;
 3. Weather influences the number of violations.
@@ -10,6 +10,8 @@ We explored the data of red light violations in the last 3 years in Chicago with
 After close examination, we reject the first, found evidence supporting the second and see a clear seasonal variation in the number of violations. We then continued our research with a regression between the violation number and the temperature and precipitation. There is no significant relationship between the violation and precipitation, but with the temperature rising, the red light violation number will increase.
 
 ## Data
+
+All the data we used can be accessed [here](https://drive.google.com/open?id=1u8ZaaZpRs2_WeB2bM1sJUwTHM4XU2qZI).
 
 ### Red Light Violations
 
@@ -23,7 +25,7 @@ We used the [weather underground API](https://www.wunderground.com/weather/api/)
 
 ## Investigation
 
-All analysis code for this project can be accessed [here](https://github.com/yzhang178/Final-Project/blob/master/Project.Lingfei%20FINAL.ipynb).
+All analysis code for this project can be accessed [here](https://github.com/yzhang178/Final-Project/blob/master/Data%20Analysis.ipynb).
 
 ### General analysis
 
@@ -56,15 +58,15 @@ We think the violation number per camera per day could give us a more sensible i
 
 ### Before and after Christmas
 
-After playing with the data more generally, we started to test our assumptions. Firstly, we looked at the violation number during the Christmas week (12.20-12.27) in the last 3 years. No significant changes happened around the holiday but we can observe a clear decline on the exact Christmas Day 12.25. We think that's because people usually stay with their family and drive less on that day.
+After playing with the data more generally, we started to test our assumptions. Firstly, we looked at the violation number during the Christmas week (12.20-12.27) in the last 3 years. No significant changes common in 3 years happened around the holiday but we can observe a clear decline on the exact Christmas Day 12.25. We think that's because people usually stay with their family and drive less on that day.
 
 ![alt text](https://github.com/yzhang178/Final-Project/blob/master/images/christmas%20bar.png?raw=true "Christmas")
 
 ### Before and after Cubs' win
 
-Secondly, we compared the daily violation total during 11.1-11.7 for the last 3 years to see if the Cubs' win brought influence to people's driving behavior. Apart from an overall increase in the violation, we can observe a clear, abnormal rise in the following 3 days after the Cubs' win (11.3-11.5).
+Secondly, we looked into the data before and after the date of Cubs' win, in a span of 3 weeks to eliminate the influence of weekdays as we discussed above. From the following bar chart, we can see an obvious increase in the following days of 11.3, which supports our second assumption.
 
-![alt text](https://github.com/yzhang178/Final-Project/blob/master/images/cubs%20bar.png?raw=true "Christmas")
+![alt text](https://github.com/yzhang178/Final-Project/blob/master/images/cubs-1.png?raw=true "Cubs")
 
 ### Relationship between weather and red light violations
 
@@ -100,6 +102,6 @@ When the temperature increases by 1 degree, the average red light violation per 
 
 ## Conclusions
 
-Our three assumptions have been tested: 1) we can see no obvious change of red light violations around Christmas, except for a decline on the Christmas Day; 2) the Cubs' win made people violate the red lights more; 3) people make red light violations more in warm days and when the temperature increases by 1 degree, the average red light violation per camera per day will increase by 0.034.
+Our assumptions have been tested: 1) we can see no obvious change of red light violations around Christmas, except for a decline on the Christmas Day; 2) people violated the red lights more after Cubs' win; 3) people make red light violations more in warm days and when the temperature increases by 1 degree, the average red light violation per camera per day will increase by 0.034.
 
 Further analysis is required in: 1) why the violation per camera per day is extremely high in zip-code 60657 and 60804; 2) if the overall increase in violation is caused by people's increasingly impertinent driving behavior or a more reasonable geographical setup of the cameras.
